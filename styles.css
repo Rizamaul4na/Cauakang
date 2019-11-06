@@ -1,0 +1,104 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+section{
+	padding: 80px 0;
+	
+}
+
+header {
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7) ) , url(img/3.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover; 
+}
+
+.logo {
+	width: 100px;
+	height: auto;
+	float: left;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+
+.main-nav {
+	float: right;
+	list-style: none;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin: 40px;
+	margin-top: 55px;
+}
+
+.main-nav li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 8px 0;
+	transition: border-bottom 0.3s;
+	border-bottom: 2px solid transparent;
+	font-size: 90%;
+
+}
+
+.main-nav li a:hover {
+	border-bottom: 2px solid #fff;
+	
+}
+.judul {
+    color: #fff;
+    padding: 15%;
+    font-size: 60px;
+}
+.kata {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+.topik {
+    color: #d46029;
+    text-align: center;
+	font-size: 20px;
+	
+}
+.harga {
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 20px;
+}
+.makanan {
+	text-align: center;
+	color: #d46029;
+}
+.tombol {
+	background-color: #000080;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	margin: 5px 10px;
+	padding: 10px 15px;
+	cursor: pointer;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	
+}
+
+footer p {
+	background-color : #888;
+	text-align: center;
+    margin-top: 20px;
+}
+.foot {
+    color: #000000;
+}
+.foto {
+    padding-left: 30px;
+
+}
